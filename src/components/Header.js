@@ -88,6 +88,10 @@ const Menu = styled.div`
         flex-wrap: nowrap;
     }
 
+    a:hover {
+        transform: scale(1.05);
+    }
+
     @media (max-width: 768px) {
         display: none;
     }
@@ -102,10 +106,17 @@ const RightMenu = styled.div`
         text-transform: uppercase;
         margin-right: 10px;
     }
+
+    a:hover {
+        transform: scale(1.05);
+    }
 `;
 
 const CustomMenu = styled(MenuIcon)`
     cursor: pointer;
+    &: hover {
+        transform: scale(1.05);
+    }
 `;
 
 const BurgerNav = styled.div`
@@ -132,6 +143,12 @@ const BurgerNav = styled.div`
 
     a {
         font-weight: 600;
+    }
+
+    a:hover {
+        background: rgba(0, 0, 0, 0.06);
+        padding: 5px 20px;
+        border-radius: 50px;
     }
 `;
 

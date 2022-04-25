@@ -21,6 +21,8 @@ function Header() {
                             {car}
                         </a>
                     ))}
+                <a href="#">Solar Roof</a>
+                <a href="#">Solar Panels</a>
             </Menu>
             <RightMenu>
                 <a href="#">Shop</a>
@@ -76,6 +78,7 @@ const Menu = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10vw;
     flex: 1;
 
     a {

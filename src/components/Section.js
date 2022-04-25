@@ -35,7 +35,6 @@ function Section({
 export default Section;
 
 const Wrap = styled.div`
-    z-index: 9;
     width: 100vw;
     height: 100vh;
     background-size: cover;
